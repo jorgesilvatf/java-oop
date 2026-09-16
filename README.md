@@ -7,21 +7,21 @@ Before diving into the core principles, you must understand the two components t
 
 # 🏛️ The 4 Pillars of OOP
 
-## 1. Encapsulation
+### 1. Encapsulation
 
 Encapsulation is the practice of **wrapping variables and methods together into a single unit** (a class) and restricting direct access to some of the object's components.
 
 - **How it works:** You declare the variables of a class as `private`. To allow external code to interact with these variables, you provide `public` getter and setter methods. 
 - **Why use it:** It protects data from unauthorized modification, improves data security, and gives you total control over what values are passed into your object. 
 
-## 2. Inheritance
+### 2. Inheritance
 
 Inheritance is the mechanism by which **one class acquires the properties and behaviors of another class**. 
 
 - **How it works:** Java uses the `extends` keyword. The existing class is called the **superclass** (or parent), and the new class is the **subclass** (or child).
 - **Why use it:** It promotes **code reusability**. You don't have to rewrite code that has already been tested and established in a parent class.
 
-## 3. Polymorphism
+### 3. Polymorphism
 
 Polymorphism translates to "many forms". It allows a **single method or action to behave differently** depending on the object execution context.
 
@@ -29,9 +29,7 @@ Polymorphism translates to "many forms". It allows a **single method or action t
 
 - **Runtime Polymorphism (Dynamic):** Achieved through **Method Overriding**, where a subclass provides a specific implementation of a method already defined in its parent class.
 
-  
-
-## 4. Abstraction
+### 4. Abstraction
 
 Abstraction is the process of **hiding complex implementation details** and showing only the essential features to the user.
 
